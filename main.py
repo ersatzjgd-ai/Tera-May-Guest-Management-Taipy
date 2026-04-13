@@ -8,7 +8,7 @@ selected_guest = {}
 
 # Routing
 pages = {
-    "/": "<|toggle|theme|>\n<center>\n# Guest Management Portal\n</center>",
+    "/": "<|toggle|theme|>\n<center>\n# Guest Management Portal",
     "dashboard": dashboard_page
 }
 
