@@ -1,0 +1,17 @@
+/* Add clear grid lines to the guest roster table */
+.grid-table table, .grid-table th, .grid-table td {
+    border: 1px solid #e0e0e0;
+    border-collapse: collapse;
+}
+
+/* Reduce font size to minimize visual clutter for warnings */
+.warning-text {
+    font-size: 0.75rem; /* Smaller font for 'GRE not assigned' */
+    color: #d32f2f;
+    font-style: italic;
+}
+
+/* Neatly space the sidebar buttons */
+.action-sidebar .taipy-button {
+    margin-bottom: 15px;
+}
